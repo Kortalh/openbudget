@@ -1,0 +1,57 @@
+/******************************************************************
+ * Color Palette:                                  					*
+ * http://colorschemedesigner.com/#2T61TlRrGvyw0   					*
+ ******************************************************************/
+
+
+/* Primary Color -- Green						*/
+
+	$primary:						#35A74E;		// rgb(53,167,78)
+	$primary-dark:					#3D7E4B;		// rgb(61,126,75)
+	$primary-darker:				#126D26;		// rgb(18,109,38)
+	$primary-light:				#67D37F;		// rgb(103,211,127)
+	$primary-lighter:				#84D395;		// rgb(132,211,149)
+
+
+/* Secondary Color -- Blue        			*/
+
+	$secondaryA:					#2D7A88;		// rgb(45,122,136)
+	$secondaryA-dark:				#335E66;		// rgb(51,94,102)
+	$secondaryA-darker:			#0F4D59;		// rgb(15,77,89)
+	$secondaryA-light:			#62B4C3;		// rgb(98,180,195)
+	$secondaryA-lighter:			#7CB8C3;		// rgb(124,184,195)
+
+
+/* Secondary Color -- Yellow-Green			*/
+
+	$secondaryB:					#97CC41;		// rgb(151,204,65)
+	$secondaryB-dark:				#7B9A4B;		// rgb(123,154,75)
+	$secondaryB-darker:			#5B8515;		// rgb(91,133,21)
+	$secondaryB-light:			#B9E570;		// rgb(185,229,112)
+	$secondaryB-lighter:			#C5E58F;		// rgb(197,229,143)
+
+
+/* Complementary Color -- Red     			*/
+
+	$complementary:				#DD5446;		// rgb(221,84,70)
+	$complementary-dark:			#A65951;		// rgb(166,89,81)
+	$complementary-darker:		#902317;		// rgb(144,35,23)
+	$complementary-light:		#EE8074;		// rgb(238,128,116)
+	$complementary-lighter:		#EE9D95;		// rgb(238,157,149)
+
+
+
+/******************************************************************
+ * Includes 																		*
+ ******************************************************************/
+
+ // Normalize library
+ @import 'normalize';
+
+ // Global elements
+ @import 'globals';
+
+ // Main Blocks
+ @import 'header';
+ @import 'section';
+ @import 'footer';
